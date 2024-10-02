@@ -11,8 +11,9 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &mt {
-    tapping-term-ms = <400>;
+    tapping-term-ms = <250>;
     quick-tap-ms = <150>;
+    flavor = "tap-preferred";
 };
 
 / {
@@ -68,7 +69,7 @@
 &trans  &bt BT_DISC 0   &bt BT_DISC 1  &bt BT_DISC 2      &bt BT_DISC 3  &bt BT_DISC 4    &trans      &trans        &trans             &trans  &trans  &trans
 &trans  &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2       &bt BT_SEL 3   &bt BT_SEL 4     &trans      &trans        &trans             &trans  &trans  &trans
 &to 0   &bt BT_CLR_ALL  &bt BT_PRV     &bt BT_NXT         &bt BT_CLR     &trans           &trans      &trans        &trans             &trans  &trans  &to 0
-                                       &ext_power EP_TOG  &out OUT_TOG   &sys_reset       &sys_reset  &out OUT_TOG  &ext_power EP_TOG
+                                       &ext_power EP_TOG  &out OUT_BLE   &sys_reset       &sys_reset  &out OUT_USB  &ext_power EP_TOG
             >;
 
             label = "Conf";
