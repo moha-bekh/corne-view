@@ -32,10 +32,10 @@
 
         Num_Sym {
             bindings = <
-&trans  &kp N1                 &kp N2           &kp N3             &kp N4            &kp N5         &kp N6     &kp N7             &kp N8                 &kp N9                         &kp N0                       &trans
-&trans  &mt LCTRL EXCLAMATION  &mt LEFT_GUI AT  &mt LEFT_ALT HASH  &kp DOLLAR        &kp PERCENT    &kp CARET  &kp AMPERSAND      &mt LEFT_ALT ASTERISK  &mt LEFT_GUI LEFT_PARENTHESIS  &mt LCTRL RIGHT_PARENTHESIS  &trans
-&trans  &kp GRAVE              &trans           &trans             &kp LEFT_BRACKET  &trans         &trans     &kp RIGHT_BRACKET  &kp MINUS              &kp EQUAL                      &kp BACKSLASH                &trans
-                                                &trans             &trans            &trans         &trans     &trans             &trans
+&kp GRAVE         &kp N1                 &kp N2           &kp N3             &kp N4          &kp N5              &kp N6             &kp N7           &kp N8                 &kp N9                         &kp N0                       &kp TILDE
+&kp SINGLE_QUOTE  &mt LCTRL EXCLAMATION  &mt LEFT_GUI AT  &mt LEFT_ALT HASH  &kp DOLLAR      &kp PERCENT         &kp CARET          &kp AMPERSAND    &mt LEFT_ALT ASTERISK  &mt LEFT_GUI LEFT_PARENTHESIS  &mt LCTRL RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES
+&trans            &kp PIPE               &kp PLUS         &kp UNDER          &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp MINUS              &kp EQUAL                      &kp BACKSLASH                &trans
+                                                          &trans             &trans          &trans              &trans             &trans           &trans
             >;
 
             label = "Num/Sym";
@@ -61,6 +61,16 @@
             >;
 
             label = "Conf";
+        };
+
+        layer_4 {
+            label = "tmp";
+            bindings = <
+&trans  &kp N1                 &kp N2           &kp N3             &kp N4            &kp N5         &kp N6     &kp N7             &kp N8                 &kp N9                         &kp N0                       &trans
+&trans  &mt LCTRL EXCLAMATION  &mt LEFT_GUI AT  &mt LEFT_ALT HASH  &kp DOLLAR        &kp PERCENT    &kp CARET  &kp AMPERSAND      &mt LEFT_ALT ASTERISK  &mt LEFT_GUI LEFT_PARENTHESIS  &mt LCTRL RIGHT_PARENTHESIS  &trans
+&trans  &kp GRAVE              &trans           &kp SINGLE_QUOTE   &kp LEFT_BRACKET  &trans         &trans     &kp RIGHT_BRACKET  &kp MINUS              &kp EQUAL                      &kp BACKSLASH                &trans
+                                                &trans             &trans            &trans         &trans     &trans             &trans
+            >;
         };
     };
 
