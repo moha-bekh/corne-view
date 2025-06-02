@@ -32,10 +32,10 @@
 
         Num_Sym {
             bindings = <
-&kp GRAVE         &kp N1           &kp N2             &kp N3                   &kp N4          &kp N5              &kp N6             &kp N7           &kp N8              &kp N9                &kp N0                 &kp TILDE
-&kp SINGLE_QUOTE  &kp EXCLAMATION  &kp AT_SIGN        &kp HASH                 &kp DOLLAR      &kp PERCENT         &kp CARET          &kp AMPERSAND    &kp ASTRK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES
-&trans            &kp LCTRL        &mt LEFT_GUI PLUS  &mt LEFT_ALT UNDERSCORE  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &mt LEFT_ALT MINUS  &mt LEFT_GUI EQUAL    &kp LCTRL              &trans
-                                                      &trans                   &trans          &trans              &trans             &trans           &trans
+&kp TILDE          &kp N1                &kp N2              &kp N3                         &kp N4          &kp N5              &kp N6             &kp N7           &kp N8                          &kp N9                &kp N0                 &kp GRAVE
+&kp DOUBLE_QUOTES  &kp EXCLAMATION       &kp AT_SIGN         &kp HASH                       &kp DOLLAR      &kp PERCENT         &kp CARET          &kp AMPERSAND    &kp ASTRK                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE
+&trans             &mt LCTRL UNDERSCORE  &mt LEFT_GUI MINUS  &mt LEFT_ALT LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &mt LEFT_ALT RIGHT_PARENTHESIS  &mt LEFT_GUI PLUS     &mt RCTRL EQUAL        &trans
+                                                             &trans                         &trans          &trans              &trans             &trans           &trans
             >;
 
             label = "Num/Sym";
