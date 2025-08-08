@@ -59,7 +59,7 @@
         Nb-Sym {
             bindings = <
 &kp TILDE                        &kp EXCLAMATION        &kp AT                 &kp HASH                 &kp DOLLAR          &kp PERCENT         &kp CARET          &kp AMPERSAND       &kp ASTERISK              &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS   &kp GRAVE
-&mt LA(LG(LCTRL)) DOUBLE_QUOTES  &mt LEFT_GUI NUMBER_1  &mt LEFT_ALT NUMBER_2  &mt LEFT_SHIFT NUMBER_3  &mt NUMBER_4 LCTRL  &kp NUMBER_5        &kp NUMBER_6       &mt RCTRL NUMBER_7  &mt RIGHT_SHIFT NUMBER_8  &mt RIGHT_ALT NUMBER_9  &mt RIGHT_GUI NUMBER_0  &mt RA(RG(RCTRL)) SINGLE_QUOTE
+&mt LA(LG(LCTRL)) DOUBLE_QUOTES  &mt LEFT_GUI NUMBER_1  &mt LEFT_ALT NUMBER_2  &mt LEFT_SHIFT NUMBER_3  &mt LCTRL NUMBER_4  &kp NUMBER_5        &kp NUMBER_6       &mt RCTRL NUMBER_7  &mt RIGHT_SHIFT NUMBER_8  &mt RIGHT_ALT NUMBER_9  &mt RIGHT_GUI NUMBER_0  &mt RA(RG(RCTRL)) SINGLE_QUOTE
 &trans                           &kp PIPE               &kp PLUS               &kp UNDER                &kp LEFT_BRACE      &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE     &kp MINUS                 &kp EQUAL               &kp BACKSLASH           &trans
                                                                                &trans                   &trans              &trans              &trans             &trans              &trans
             >;
