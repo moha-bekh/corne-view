@@ -11,9 +11,9 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &mt {
-    tapping-term-ms = <160>;
+    tapping-term-ms = <200>;
     quick-tap-ms = <160>;
-    flavor = "hold-preferred";
+    flavor = "tap-preferred";
     require-prior-idle-ms = <0>;
     retro-tap;
     hold-trigger-key-positions = <>;
