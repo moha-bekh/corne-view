@@ -62,6 +62,8 @@
 &kp LSHFT  &kp Z  &kp X  &kp C      &kp V  &kp B             &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RSHFT
                          &kp LCTRL  &mo 2  &kp LEFT_SHIFT    &kp SPACE  &mo 2  &kp LEFT_WIN
             >;
+
+            label = "Qwerty";
         };
 
         Nb-Sym {
